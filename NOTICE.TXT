@@ -2,4 +2,12 @@
   ----------------------------------------
   update: memcached.c util.c util.h version.pl 版本号
   rename: flushall -> hcmd_flush_all
+  
+  
+2. setup
   ----------------------------------------
+  ./autogen.sh
+  ./configure --prefix=/home/cache --with-libevent=/home/cache
+  make
+  strip memcached
+  ./memcached -V
