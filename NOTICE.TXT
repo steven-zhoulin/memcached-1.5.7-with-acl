@@ -1,0 +1,5 @@
+1. add memcached access control list
+  ----------------------------------------
+  update: memcached.c util.c util.h
+  rename: flushall -> hcmd_flush_all
+  ----------------------------------------
